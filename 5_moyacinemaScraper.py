@@ -23,5 +23,5 @@ with textFile:
         if(nextLink == None):
             break
 
-        # TODO 「次のページ」に行くためのリンクを取得してurlに代入してください
+        # TODO 「次のページ」に行くためのリンク（href要素）をnextLinkから取得してurlに代入してください
         url =  # ここにコードを書く

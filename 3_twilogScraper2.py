@@ -16,9 +16,9 @@ wd = webdriver.Chrome('chromedriver', options=options)
 
 textFile = open("tweet.txt", "w")
 
-# 1〜10ページ目までを探索する
+# 1〜5ページ目までを探索する
 with textFile:
-    for i in range(1, 11):
+    for i in range(1, 6):
         # Twilogのnページ目のURが https://twilog.org/hassy_nz/n であることを利用
         wd.get(url + '/' + str(i))
 

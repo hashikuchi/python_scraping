@@ -32,7 +32,7 @@ with textFile:
                 child = str(child)
                 print(child)
                 # HTMLタグ(<a href=''...>など)が邪魔なので削除
-                child = re.sub(r'<.*>', '', child)
+                child = re.sub(r'<.*?>', '', child)
                 text += str(child)
             # テキストファイルに保存
             textFile.write(text + '\n')
